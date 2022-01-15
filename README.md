@@ -10,8 +10,32 @@
   - Research information, e.g. Python documentation
   - Terminology
 - Solve problems that they can understand 
-
+- Many great excercises from htps://pynative.com/ 
+ 
 ### Monday, 17 January 2022
+
+#### Redo the fibonacci sequence 
+
+```
+ns = [1, 2, 3, 4, 5]
+
+length = len(n) # The parentheses are the same as those in Math, which he probably has not studied.
+value = ns[length - 1] # the last element
+
+```
+
+```
+ns = [1, 1]
+i = 0
+while i < 10:
+  length = len(ns)
+  last = length - 1
+  last_but_one = length - 2
+  new_element = ns[last] + ns[last_but_one]
+  ns.append(new_element)
+ 
+print(ns)
+```
 
 #### Negative indexes
 
@@ -52,28 +76,19 @@ print(fibonacci_sequence(n))
 - Introduce the phrase - invocation. In Python, the syntax of invoking a function or method is `()`, e.g. `len(seq)`
 - Refresh how to get the length of a list, the last index of a list
 - Reaffirm how to refer to the element of a list by an index
+- Introduce `range(start, stop, [step])`. The actual implementation involves classes and it is quite complicated for this stage.
+  - `range(10)` is the short form of `range(0, 10, 1)`, which generates a list, `0 <= i < 10`, where `i` is incremented by `1` (step)
+  - We can see this by `list(range(10)`, `list(range(0, 10, 1))`, and also try `list(range(0, 10, 2)`. 
 
-#### Redo the fibonacci sequence 
+#### Print characters from a string that are present at an even index number
 
-```
-ns = [1, 2, 3, 4, 5]
-
-length = len(n) # The parentheses are the same as those in Math, which he probably has not studied.
-value = ns[length - 1] # the last element
-
-```
+Previously, we use `index % 2 == 0` to check the oddity. We can use `range(start, stop, [step])`. 
 
 ```
-ns = [1, 1]
-i = 0
-while i < 10:
-  length = len(ns)
-  last = length - 1
-  last_but_one = length - 2
-  new_element = ns[last] + ns[last_but_one]
-  ns.append(new_element)
- 
-print(ns)
+s = str(input()) # Convert input as str
+
+for index := range(0, len(s), 2): 
+  print(s[index])
 ```
 
 ### Saturday, 15 January 2022
