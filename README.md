@@ -142,7 +142,7 @@ def palindrome(s):
 
 - The student was really happy to see his code solved a real problem. He modified it to accept a user input and tried a few times. 
 
-### Before
+### Before 14 Jan 2022
 
 I did not keep notes from the beginning. Here are we quickly covered in about ten days
 
