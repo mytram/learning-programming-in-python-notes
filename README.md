@@ -9,7 +9,8 @@
   - Shortcuts 
   - Research information, e.g. Python documentation
   - Terminology
-- Solve problems that they can understand 
+- Use a real programming editor as opposed to an online one
+- Focus on the understanding of the problems in code practice instead of the solution
 - Many great excercises from [https://pynative.com/](https://pynative.com/)
  
 ### Monday, 17 January 2022
