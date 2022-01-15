@@ -2,7 +2,7 @@
 
 ## Tutoring notes
 
-- Keep sessions short, 15 to 20 minutes each
+- Keep sessions short, 15 to 20 minutes each. Use a timer
 - Repeat the key concepts over and over again
 - Effective use of technologies
   - Navigation
@@ -11,34 +11,7 @@
   - Terminology
 - Solve problems that they can understand 
 
-### Sunday, 16 January 2022
-
-- Introduce the phrase - invocation. In Python, the syntax of invoking a function or method is `()`, e.g. `len(seq)`
-- Refresh how to get the length of a list, the last index of a list
-- Reaffirm how to refer to the element of a list by an index
-
-#### Redo the fibonacci sequence 
-
-```
-ns = [1, 2, 3, 4, 5]
-
-length = len(n) # The parentheses are the same as those in Math, which he probably has not studied.
-value = ns[length - 1] # the last element
-
-```
-
-```
-ns = [1, 1]
-i = 0
-while i < 10:
-  length = len(ns)
-  last = length - 1
-  last_but_one = length - 2
-  new_element = ns[last] + ns[last_but_one]
-  ns.append(new_element)
- 
-print(ns)
-```
+### Monday, 17 January 2022
 
 #### Negative indexes
 
@@ -72,6 +45,35 @@ print("Enter the number of the Fibonnaci sequence to generate")
 
 print(fibonacci_sequence(n))
 
+```
+
+### Sunday, 16 January 2022
+
+- Introduce the phrase - invocation. In Python, the syntax of invoking a function or method is `()`, e.g. `len(seq)`
+- Refresh how to get the length of a list, the last index of a list
+- Reaffirm how to refer to the element of a list by an index
+
+#### Redo the fibonacci sequence 
+
+```
+ns = [1, 2, 3, 4, 5]
+
+length = len(n) # The parentheses are the same as those in Math, which he probably has not studied.
+value = ns[length - 1] # the last element
+
+```
+
+```
+ns = [1, 1]
+i = 0
+while i < 10:
+  length = len(ns)
+  last = length - 1
+  last_but_one = length - 2
+  new_element = ns[last] + ns[last_but_one]
+  ns.append(new_element)
+ 
+print(ns)
 ```
 
 ### Saturday, 15 January 2022
