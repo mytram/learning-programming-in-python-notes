@@ -154,8 +154,10 @@ I did not keep notes from the beginning. Here are we quickly covered in about te
 - Integer numbers and strings are most common values we put in a variable
 - `if-else`. Later `if-elif-else` as a short form of nested `if-else-if-else`
 - The confusion between `=` and `==` will last for a while. Repeat, repeat, repeat
-- Introduct lists, which is a list of variables, `len`. 
+- Introduct lists, which is a list of variables, `len()` 
 - Use `for` loop over lists 
 - List indexes. This topic needs to be repeated over and over again
 - Introduce functions and arguments
 - Introduce `while`, `True` and `False`
+- Help set up autoformatting in VSC in front of the student and explain
+- Help set up auto-save in VSC after a few days in front of the student and explain. Initially, the student will forget to save the file over and over again, obviously
