@@ -10,7 +10,7 @@
   - Research information, e.g. Python documentation
   - Terminology
 - Solve problems that they can understand 
-- Many great excercises from htps://pynative.com/ 
+- Many great excercises from [https://pynative.com/](https://pynative.com/)
  
 ### Monday, 17 January 2022
 
