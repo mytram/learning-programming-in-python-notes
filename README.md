@@ -44,7 +44,7 @@ You can use `ns[-1]` and `ns[-2]` to get the last and the last but one. The prog
 
 ```
 while i < 10:
-  ns.append(ns[-1] + ns[-2]
+  ns.append(ns[-1] + ns[-2])
 ```
 
 #### Make function fibonacci_sequence(n), where n is the number of the sequence
