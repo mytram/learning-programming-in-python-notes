@@ -160,7 +160,12 @@ def palindrome(s):
 
 - The student was really happy to see his code solved a real problem. He modified it to accept a user input and tried a few times. 
 
-### Before 14 Jan 2022
+### 12-13 January 20222
+
+- Functions are likened to algebric functions. 
+
+
+### Before 12 January 2022
 
 I did not keep notes from the beginning. Here are we quickly covered in about ten days
 
