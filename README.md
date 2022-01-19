@@ -12,7 +12,11 @@
 - Use a real programming editor as opposed to an online one
 - Focus on the understanding of the problems in code practice instead of the solution
 - Many great excercises from [https://pynative.com/](https://pynative.com/)
- 
+
+https://adriann.github.io/programming_problems.html
+
+### Tuesday, 18 January 2022
+
 ### Monday, 17 January 2022
 
 #### Redo the fibonacci sequence 
