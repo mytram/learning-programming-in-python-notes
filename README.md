@@ -12,12 +12,76 @@
 - Use a real programming editor as opposed to an online one
 - Focus on the understanding of the problems in code practice instead of the solution
 - Many great excercises from [https://pynative.com/](https://pynative.com/)
+- (Simple programming prlblems)[https://adriann.github.io/programming_problems.html]
 
-https://adriann.github.io/programming_problems.html
+### Wednesday, 26 Janurary 2022
+
+From (Simple programming prlblems)[https://adriann.github.io/programming_problems.html]
+
+#### 4. Write a program that asks the user for a number n and prints the sum of the numbers 1 to n
+
+The student independently finished the task after many days of practisng this same problem. In fact, this problem is not easy becasue it has many learning points, which I will describe as the comments below. 
+
+```
+n = int(input()) # Ask the user to enter a number. String input need to be converted to an integer
+
+x = 0 # Create a variable to accumulate the sum and assign an initial value of 0 to it
+      # Each time, when a variable is assigned a value, the previous value is overwritten, or gone. 
+
+# `range(n+1)` creates a sequence between 0 and n, inclusively
+
+for e in range(n+1): # Each, e is assigned to the next value from the range
+  x = x + e          # Accumulating: the x on the right is the sum of the previous elements from the range, 
+                     # add the current element `e` to the sum and assigne it to `x`. After that, `x` has the 
+                     # the sum of all of the elements till now. 
+                     # Repeat with the next element from the range. 
+ 
+print(x)
+```
+
+#### 5. Modify the previous program such that only multiples of three or five are considered in the sum, e.g. 3, 5, 6, 9, 10, 12, 15 for n=17
+
+The student modified the previous programme to use `%` (modulo) to check divisibility and `or` to solve the problem. Initially, the student missed the equality comparison in checking if a number was divisible by `3` or `5`. 
+
+### Tuesday, 25 Janurary 2022
+
+Away 
+
+### Monday, 24 January 2022
+
+Away
+
+### Sunday, 23 January 2022
+
+Away
+
+### Saturday, 22 January 2022
+
+### Friday, 21 January 2022
+
+Repeat 4. 
+
+### Thursday, 20 January 2022
+
+Repeat 4. 
+
+### Wednesday, 19 Janurary 2022
+
+Repeat 4. 
 
 ### Tuesday, 18 January 2022
 
+Repeat 4. 
+
 ### Monday, 17 January 2022
+
+This is hard for a beginner. I turned to (Simple programming problems)[https://adriann.github.io/programming_problems.html] to reinforce the learning:
+
+- vVriables
+- Assignment 
+- The `range` function
+- `for` loop
+- `if` and `else`
 
 #### Redo the fibonacci sequence 
 
