@@ -14,9 +14,25 @@
 - Many great excercises from [https://pynative.com/](https://pynative.com/)
 - (Simple programming prlblems)[https://adriann.github.io/programming_problems.html]
 
+### Friday, 28 Janurary 2022
+
+From [Simple programming prlblems](https://adriann.github.io/programming_problems.html)
+
+#### 7 Write a program that prints a multiplication table for numbers up to 12
+
+#### 8 Write a program that prints all prime numbers up to 1000 or any other number
+
+### Thursday, 27 Janurary 2022
+
+From [Simple programming prlblems](https://adriann.github.io/programming_problems.html)
+
+#### 6 Write a program that asks the user for a number n and gives them the possibility to choose between computing the sum and computing the product of 1,…,n.
+
+- Use `str(input())` to receive the user's choice of calculation
+
 ### Wednesday, 26 Janurary 2022
 
-From (Simple programming prlblems)[https://adriann.github.io/programming_problems.html]
+From [Simple programming prlblems](https://adriann.github.io/programming_problems.html)
 
 #### 4. Write a program that asks the user for a number n and prints the sum of the numbers 1 to n
 
