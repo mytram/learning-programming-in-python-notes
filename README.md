@@ -14,6 +14,22 @@
 - Many great excercises from [https://pynative.com/](https://pynative.com/)
 - (Simple programming prlblems)[https://adriann.github.io/programming_problems.html]
 
+
+### Saturday, 29 Janurary 2022
+
+From [Simple programming prlblems](https://adriann.github.io/programming_problems.html)
+
+#### 8 Write a program that prints all prime numbers up to 1000 or any other number
+Repeat. Introduced the function to make the programme more concise and easier to read. 
+
+```
+def is_prime(n): # Return True if n is prime; otherwise False
+  t = range(2, n, 1)
+  for x in t:          # for every number x between 2 and n, not including n
+    if n % x == 0:     # If n is divisible by x, return n is not a prime
+      return False     
+  return True          # n is not divisible by any number smaller than n, so it is a prime.  
+```
 ### Friday, 28 Janurary 2022
 
 From [Simple programming prlblems](https://adriann.github.io/programming_problems.html)
@@ -21,6 +37,23 @@ From [Simple programming prlblems](https://adriann.github.io/programming_problem
 #### 7 Write a program that prints a multiplication table for numbers up to 12
 
 #### 8 Write a program that prints all prime numbers up to 1000 or any other number
+
+The nested for loops got the student confused. Repeat, repeat, repeat
+
+```
+m = int(input())
+
+for e in range(2, m+1, 1):
+  t = range(2, e, 1)
+  is_prime = True # assume e is a prime, first. This is a new programming technique that is hard to understand for a student. 
+  for x in t:
+    if e % x == 0:
+      is_prime = False
+      break # Stop the inner loop
+  if is_prime: 
+    print(e)
+
+```
 
 ### Thursday, 27 Janurary 2022
 
